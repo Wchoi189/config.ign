@@ -1,0 +1,16 @@
+variant: fcos
+version: 1.4.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDb/boRAD1pd088BeGJkPh0PPeG4Zv5VuqiwVAWO2yvxjXXD/kl2bkUDo2pNiJy3NvVjv7IfJ/HyAADHwmIhCzJgXLGDXqGfRq5/79j9bWdN8/yrIEtrDTIGQZrsoXwhH3qMINWj8+rij8yzrZvZSNl/Sidb2xr8gNxXwaFBTSTTqwjMh86QWcviJtiBfIjuzcIoCQ6ofNP0kf8wUJXXPOVFkkmTkbsvvW0l1mUSjKxswt01em/Fsx8ewRMWDa0vwhY/2xDFhbARziz0j/2dno8v9AruKAmbtBsH4Cpdc8lrRWgTZ7bUUICwfUByq3aGYs8qpO9vLObsDH8oEugKlGk3H1oW2uq9RfrtPfTllS4rmj7UZYWXbKTJwnwJS4w6j1KlHplV9+lXSH+LnCkxoUl4kVD2Klg84kLGtUQiChsUXX5+LuxcuqJv0cwyrATPEz4UWLJ04UmSwaWyTTGpeMqnUTZ7qajhS1iqaoXMZbgQeAsJxDW7stuYVeWyBpjPTAkVh5cjR4TFk8HhQzHnCcBUuUX0ErMImuX8gVDDj+9Y6/Xp3+rSQNH+XJvuP8nq+EBjWiWFt5LIRQPzbbNE3Js61oK2pgdA17MUr8C403SAv7f2wUoQK1BfzXC4eW7BPNMUhF0awXzGwxbvB2vlsvmMD2oorflxvOpqQZgbmhqfQ== wchoi189@gmail.com"
+storage:
+  files:
+    - path: /etc/hostname
+      mode: 0644
+      contents:
+        inline: coreos-node
+		
+		
+		
